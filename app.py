@@ -1,6 +1,5 @@
 import streamlit as st
 import pandas as pd
-import joblib
 
 # Load the pre-trained model pipeline
 # This pipeline already includes the preprocessor (scaler, one-hot encoder)
@@ -91,3 +90,4 @@ if st.sidebar.button('Prediksi Sekarang'):
     st.write(proba_df)
 
 st.sidebar.info("Aplikasi ini dibuat sebagai bagian dari proyek UAS MPML.")
+
